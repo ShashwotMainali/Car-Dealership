@@ -1,0 +1,498 @@
+delears,
+shopdetails,
+shopname,
+shoplocation,
+shopcontact,
+email,
+cartypes,
+carmodel,
+name,
+itemnumber,
+price,
+description,
+fueltype,
+fuelconsumption,
+color,
+quantity,
+suv,
+luxurysports,
+vintage,
+sedan,
+supercars,
+electric,webaddress {
+	display:block;
+}
+
+dealers{
+	float:center;
+	background-color:#373737;
+	background-image:url(images/logo.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:150px 120px;
+}
+
+shopdetail{
+	background-image:url(images/image.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+}
+
+cartypes{
+	float:center;
+	background-image:url(images/image.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+}
+
+carmodel{
+	background-color:rgb(255,255,255);
+}
+
+
+name,itemnumber,price,description,fueltype,fuelconsumption,
+color,quantity{
+	text-align:left;
+}
+
+shopdetail{
+	float:center;
+	margin-top:50px;
+	margin-left:150px;
+	margin-right:150px;
+	display:block;
+	font-size:17px;
+	border:2px solid orange;
+}
+
+shopname{
+	font-size:30px;
+	font-family:Helvetica;
+	color:rgb(255,255,255);
+	text-align:center;
+	text-decoration:underline;
+}
+
+shoplocation{
+	font-size:18px;
+	color:white;
+	text-align:center;
+}
+
+shopcontact{
+	text-align:center;
+	color:white;
+}
+
+email{
+	text-align:center;
+	font-family:Arial;
+	text-decoration:underline;
+	color:blue;
+	text-decoration:italic;
+}
+
+webaddress{
+	text-align:center;
+	font-family:Arial;
+	text-decoration:underline;
+	color:rgb(0,0,255);
+	text-decoration:italic;
+}
+
+shopname,shoplocation,webaddress,email,shopcontact{
+	list-style-position: inside;
+}
+
+cartypes{
+	margin-top:50px;
+	margin-left:150px;
+	margin-right:150px;
+	display:block;
+	font-size:17px;
+	border:2px solid orange;
+}
+
+carmodel[class="one"]{
+	float:center;
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Jeepwrangler.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+	
+carmodel[class="two"]{
+	margin-left:730px;
+	margin-top:-670px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/jeepgrandcherokee1.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="three"]{
+	margin-left:190px;
+	margin-top: 150px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/porschecayenne.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="four"]{
+	margin-left:730px;
+	margin-top:-655px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/BMWX3.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="five"]{
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/JeepRenegade.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="lsone"]{
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Lexus.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+	
+carmodel[class="lstwo"]{
+	margin-left:730px;
+	margin-top:-620px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Porsche911.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="lsthree"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Mercedes.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="lsfour"]{
+	margin-left:730px;
+	margin-top:-650px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/BMW8-Series.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="lsfive"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/AcuraNSX.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="vone"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Rolls-RoycedawnDrophead.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="vtwo"]{
+	margin-left:730px;
+	margin-top:-635px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/FordModelT.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="sone"]{
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/JiaOptima.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+	
+carmodel[class="stwo"]{
+	margin-left:730px;
+	margin-top:-630px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/ToyotaCamry.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="sthree"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/HondaAccord.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="sfour"]{
+	margin-left:730px;
+	margin-top:-610px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/MazdaMazda6.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="sfive"]{
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/HyundaiSonata.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="scone"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/FerrariF8Tributo.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+	
+carmodel[class="sctwo"]{
+	margin-left:730px;
+	margin-top:-630px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/LamborghiniHuracanEvo.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="scthree"]{
+	margin-left:190px;
+	margin-top:140px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/FordGT.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="scfour"]{
+	margin-left:730px;
+	margin-top:-610px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/Aventador.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+carmodel[class="scfive"]{
+	margin-left:190px;
+	margin-top:100px;
+	display:block;
+	font-size:17px;
+	width:310px;
+	background-image:url(images/FerrariSF90Stradale.jpg);
+	background-color:;
+	background-size:300px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	border:2px solid orange;
+}
+
+name,
+itemnumber,
+price,
+description,
+fueltype,
+fuelconsumption,
+color,
+quantity
+{
+	margin-top: 30px;
+}
+
+description{
+	margin-top:200px;
+}
+
+name::before {
+	content:"Name:";
+	
+}
+
+itemnumber::before {
+	content:"Item Number:";
+	
+}
+
+price::before {
+	content:"Price:";
+	
+}
+
+fueltype::before {
+	content:"Fuel Type:";
+	
+}
+
+fuelconsumption::before {
+	content:"Fuel Consumption:";
+	
+}
+
+color::before {
+	content:"color:";
+	
+}
+
+quantity::before {
+	content:"Available Quantity:";
+	
+}

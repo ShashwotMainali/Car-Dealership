@@ -1,0 +1,173 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="dealers">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="shopdetail"/>
+				<xs:element ref="cartypes" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="shopdetail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="shopname" minOccurs="0" maxOccurs="1"/> 
+				<xs:element ref="shoplocation" minOccurs="0" maxOccurs="1"/>  
+				<xs:element ref="shopcontact" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="webaddress" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="email" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="shopname">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+		</xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="shoplocation">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+		</xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="shopcontact">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="([0-9])+"/> <!--this for fixing the pattern in which the data must be entered-->
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="webaddress">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+		</xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="email">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+		</xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="cartypes">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="suv" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="luxurysports" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="vintage" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="sedan" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="supercar" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="suv">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carmodel" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="luxurysports">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carmodel" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="vintage">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carmodel" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="sedan">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carmodel" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="supercar">	
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="carmodel" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+		
+	<xs:element name="carmodel">
+        <xs:complexType>
+            <xs:sequence>
+				<xs:element ref="description" minOccurs="1" maxOccurs="unbounded"/>  <!--this indicates, that this can occur once or multiple times-->
+				<xs:element ref="name" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="itemnumber" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="price" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="fueltype" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="fuelconsumption" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="color" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="quantity" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+			<xs:attribute name="class" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+	
+	<xs:element name="description">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="itemnumber">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="price">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="fueltype">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="fuelconsumption">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>          
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="color">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+    </xs:element>
+	
+	<xs:element name="quantity">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+	</xs:element>
+	
+</xs:schema>

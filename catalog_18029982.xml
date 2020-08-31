@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18029982.css"?>
+
+<dealers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="catalog_18029982.xsd">
+	
+	<shopdetail>
+		<shopname> SheezieG Dealers </shopname>
+		<shoplocation> Sukedhara, Kathmandu </shoplocation>
+		<shopcontact> 1234567891 </shopcontact>
+		<webaddress>www.sheezieg.com</webaddress>
+		<email>sheezieg432@gmail.com </email>
+	</shopdetail>
+
+	<cartypes>
+		<suv>
+			<carmodel class="one">
+				<description>  The 2020 Jeep Wrangler Unlimited has the new turbo-diesel V-6 that joins the Wrangler Unlimited's engine offerings. It makes 260 hp and 442 pounds-feet of torque. The Unlimited also offers versions of the gas V-6 .</description>
+				<name>  Jeep Wrangler Unlimited </name>
+				<itemnumber> 40145 </itemnumber>
+				<price> $31,795 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 19 MPG </fuelconsumption>
+				<color> Grey </color>
+				<quantity> 3 </quantity>
+			</carmodel>
+			
+			<carmodel class="two">
+				<description> The 2020 Jeep Grand Cherokee is a five-passenger midsize SUV that comes in seven trim levels: Laredo, Limited, Trailhawk, Overland, Summit, SRT and Trackhawk.</description>
+				<name>  Jeep Grand Cherokee </name>
+				<itemnumber> 25168 </itemnumber>
+				<price> $32,150 </price>
+				<fueltype> Diesel </fueltype>
+				<fuelconsumption> 21 MPG </fuelconsumption>
+				<color> White </color>
+				<quantity> 4 </quantity>
+			</carmodel>
+			
+			<carmodel class="three">
+				<description> The 2020 Porsche Cayenne is a performance-oriented midsize luxury SUV. Two body styles are available: the five-seat standard model and the more aggressively styled coupe, which offers standard seating for four</description>
+				<name> Porsche Cayenne </name>
+				<itemnumber> 85692 </itemnumber>
+				<price> $76,800 </price>
+				<fueltype> Diesel </fueltype>
+				<fuelconsumption> 17-20 MPG </fuelconsumption>
+				<color> White </color>
+				<quantity> 2 </quantity>
+			</carmodel>
+			
+			<carmodel class="four">
+				<description>The 2020 BMW X3 is a five-passenger crossover sold in three trim levels: sDrive30i, xDrive30i and M40i. The rear-wheel-drive sDrive30i and the all-wheel-drive xDrive30i are powered by a turbocharged 2.0-liter four-cylinder engine. </description>
+				<name> BMW X3 </name>
+				<itemnumber> 65982 </itemnumber>
+				<price> $52,950 </price>
+				<fueltype> Diesel </fueltype>
+				<fuelconsumption> 27 MPG </fuelconsumption>
+				<color> Silver </color>
+				<quantity> 7 </quantity>
+			</carmodel>
+			
+			<carmodel class="five">
+				<description> The Jeep Renegade is a subcompact SUV with seating for five people. It comes standard with a 180-horsepower, 2.4-liter four-cylinder engine and a nine-speed automatic transmission.</description>
+				<name> Jeep Renegade </name>
+				<itemnumber> 32584 </itemnumber>
+				<price> $30,375 </price>
+				<fueltype> Diesel</fueltype>
+				<fuelconsumption> 25 MPG </fuelconsumption>
+				<color> Blue</color>
+				<quantity> 6 </quantity>
+			</carmodel>
+			
+		</suv>
+		
+		<luxurysports>
+			<carmodel class="lsone">
+				<description> The 2020 Lexus LC is a high-end luxury coupe inside and out. It has a silky ride and nimble handling, as well as a premium cabin.</description>
+				<name>  Lexus LC </name>
+				<itemnumber> 85267 </itemnumber>
+				<price> $96,300 </price>
+				<fueltype> Unleaded Gasoline</fueltype>
+				<fuelconsumption> 16-25 MPG </fuelconsumption>
+				<color> Silver </color>
+				<quantity> 5 </quantity>
+			</carmodel>
+			
+			<carmodel class="lstwo">
+				<description> The 2020 911 is only offered as S and 4S models so far and both are powered by an updated twin-turbo 3.0-liter flat-6 that now makes 443 hp.</description>
+				<name>  Porsche 911 </name>
+				<itemnumber> 85321</itemnumber>
+				<price> $123,300 </price>
+				<fueltype> Unleaded Gasoline</fueltype>
+				<fuelconsumption> 18-24 MPG </fuelconsumption>
+				<color> Black </color>
+				<quantity> 2 </quantity>
+			</carmodel>
+			
+			<carmodel class="lsthree">
+				<description> The 2020 Mercedes-Benz SL-Class is less exciting than competitors, but nearly unmatched in terms of comfort.The SL 450 features a turbocharged V-6 that makes 362 horsepower</description>
+				<name>  Mercedes-Benz SL-Class </name>
+				<itemnumber> 85436 </itemnumber>
+				<price> $114,700 </price>
+				<fueltype> Unleaded Gasoline </fueltype>
+				<fuelconsumption> 20-28 MPG </fuelconsumption>
+				<color> Silver </color>
+				<quantity> 4 </quantity>
+			</carmodel>
+			
+			<carmodel class="lsfour">
+				<description>  The 2020 BMW 840i models, all with standard rear-wheel drive and optional xDrive all-wheel drive, have a 3.0-liter turbocharged inline-six that produces 335 horsepower.</description>
+				<name>  BMW 8-Series </name>
+				<itemnumber> 85462 </itemnumber>
+				<price> $155,500</price>
+				<fueltype> Unleaded Gasoline </fueltype>
+				<fuelconsumption> 23-30 MPG </fuelconsumption>
+				<color> Black </color>
+				<quantity> 5 </quantity>
+			</carmodel>
+			
+			<carmodel class="lsfive">
+				<description> It consists of a midmounted 3.5-liter V6 engine, twin front electric motors, a single rear electric motor, a nine-speed dual-clutch automatic transmission</description>
+				<name>  Acura NSX </name>
+				<itemnumber> 85792 </itemnumber>
+				<price> $157,500 </price>
+				<fueltype> Unleaded Gasoline</fueltype>
+				<fuelconsumption> 21-22 MPG </fuelconsumption>
+				<color> Blue </color>
+				<quantity> 4 </quantity>
+			</carmodel>
+			
+		</luxurysports>
+		
+		<vintage>
+			<carmodel class="vone">
+					<description> The car has a limited top speed of 250 km/h (155 mph) and weighs 2,560 kg (5,644 lb). It can accelerate from 0-100 km/h (62 mph) in 4.9 seconds.</description>
+					<name> Rolls-Royce dawn Drophead </name>
+					<itemnumber> 10598 </itemnumber>
+					<price> $2,000,000</price>
+					<fueltype> Petrol</fueltype>
+					<fuelconsumption> 11MPG </fuelconsumption>
+					<color> White and Blue </color>
+					<quantity> 2 </quantity>
+			</carmodel>
+			
+			<carmodel class="vtwo">
+					<description> Model T. Model T, automobile built by the Ford Motor Company from 1908 until 1927. Conceived by Henry Ford as practical, affordable transportation for the common man, it quickly became prized for its low cost.</description>
+					<name> Ford Model T </name>
+					<itemnumber> 10457 </itemnumber>
+					<price> $1,200,000</price>
+					<fueltype> Petrol </fueltype>
+					<fuelconsumption> 8MPG </fuelconsumption>
+					<color> Black</color>
+					<quantity> 1 </quantity>
+			</carmodel>
+			
+		</vintage>
+		
+		<sedan>
+			<carmodel class="sone">
+				<description> The Optima hybrid and plug-in hybrid now have standard driver assists, including adaptive cruise control and lane-keeping assist.</description>
+				<name>  Jia Optima </name>
+				<itemnumber> 56897 </itemnumber>
+				<price> $32,190 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 24-32 MPG</fuelconsumption>
+				<color> White </color>
+				<quantity> 4</quantity>
+			</carmodel>
+			
+			<carmodel class="stwo">
+				<description> The 2020 Toyota Camry is a midsize sedan available in six different trim levels: L, LE, SE, XSE, XLE and TRD.</description>
+				<name>  Toyota Camry </name>
+				<itemnumber> 56941 </itemnumber>
+				<price> $35,130 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 29-41 MPG </fuelconsumption>
+				<color> Red </color>
+				<quantity> 3</quantity>
+			</carmodel>
+			
+			<carmodel class="sthree">
+				<description> The 2020 Honda Accord is available with one of two engines. The base is a 1.5-liter turbocharged I4 putting out 192 horsepower</description>
+				<name>  Honda Accord </name>
+				<itemnumber> 56921</itemnumber>
+				<price> $36,250 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 30-38 MPG</fuelconsumption>
+				<color> Silver </color>
+				<quantity> 7</quantity>
+			</carmodel>
+			
+			<carmodel class="sfour">
+				<description>Unlike most mid-size alternatives, the 2020 Mazda 6 lineup does not go hybrid or plug-in. There is, however, a choice of two responsive 2.5-liter four-cylinder engines. </description>
+				<name>  Mazda Mazda6 </name>
+				<itemnumber> 56214</itemnumber>
+				<price> $35,400 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 26-35 MPG </fuelconsumption>
+				<color> White </color>
+				<quantity> 6</quantity>
+			</carmodel>
+			
+			<carmodel class="sfive">
+				<description> The 2020 Hyundai Sonata is a midsize sedan sold in four trim levels: SE, SEL, SEL Plus and Limited. </description>
+				<name>  Hyundai Sonata </name>
+				<itemnumber> 56324 </itemnumber>
+				<price> $33,500 </price>
+				<fueltype> Diesel and Petrol </fueltype>
+				<fuelconsumption> 28-38 MPG</fuelconsumption>
+				<color> Red</color>
+				<quantity> 3 </quantity>
+			</carmodel>
+		</sedan>
+		
+		<supercar>
+			<carmodel class="scone">
+				<description> 2020 Ferrari F8 Tributo Drivetrain And Performance. The F8 Tributo features an upgraded version of Ferrari's already iconic 3.9-liter V-8 engine.</description>
+				<name> Ferrari F8 Tributo </name>
+				<itemnumber> 95874</itemnumber>
+				<price> $300,000</price>
+				<fueltype> Unleaded Gasoline</fueltype>
+				<fuelconsumption> 26-35 MPG </fuelconsumption>
+				<color> Red</color>
+				<quantity> 3</quantity>
+			</carmodel>
+			
+			<carmodel class="sctwo">
+				<description> The Evo adds rear-wheel steering and a 29-hp injection to the Huracán's 5.2-liter V-10, raising output to 631 horsepower.</description>
+				<name> Lamborghini Huracan Evo </name>
+				<itemnumber> 95326</itemnumber>
+				<price> $350,000</price>
+				<fueltype> Unleaded Gasoline</fueltype>
+				<fuelconsumption> 23-32 MPG </fuelconsumption>
+				<color> Orange</color>
+				<quantity> 5</quantity>
+			</carmodel>
+			
+			<carmodel class="scthree">
+				<description> Unlike the supercharged V-8 in the previous-generation GT, the new car is equipped with a twin-turbocharged 3.5-liter V-6 engine. </description>
+				<name> Ford GT </name>
+				<itemnumber> 95164 </itemnumber>
+				<price> $300,000</price>
+				<fueltype>Unleaded Gasoline</fueltype>
+				<fuelconsumption> 28-37 MPG </fuelconsumption>
+				<color> Black </color>
+				<quantity> 4</quantity>
+			</carmodel>
+			
+			<carmodel class="scfour">
+				<description> The Aventador LP700–4 uses Lamborghini's new 700 PS (515 kW; 690 bhp) 6,498 cc (6.5 L; 396.5 cu in) 60° V12 engine weighing 235 kg.</description>
+				<name> Lamborghini Aventador SVJ </name>
+				<itemnumber> 95968 </itemnumber>
+				<price> $400,000</price>
+				<fueltype> Unleaded Gasoline </fueltype>
+				<fuelconsumption> 26-35 MPG </fuelconsumption>
+				<color> Yellow </color>
+				<quantity> 5</quantity>
+			</carmodel>
+			
+			<carmodel class="scfive">
+				<description>The SF90 Stradale is motivated by three electric motors and a potent V-8, and they combine to produce a staggering 986 horsepower. </description>
+				<name> Ferrari SF90 Stradale </name>
+				<itemnumber> 95832 </itemnumber>
+				<price> $532,000</price>
+				<fueltype> Unleaded Gasoline </fueltype>
+				<fuelconsumption> 20-36 MPG </fuelconsumption>
+				<color> Red</color>
+				<quantity> 3</quantity>
+			</carmodel>
+		</supercar>
+		
+	
+	</cartypes>
+</dealers>
